@@ -1,1 +1,11 @@
-print("hai ravi")
+numbers = [12,45,67,89,43,5]
+#find small and large numbesr in arry
+small = numbers[0]
+large = numbers[0]
+n = len(numbers)
+for i in range(1,n):
+	if(small>numbers[i]):
+		small = numbers[i]
+	if large<numbers[i]:
+		large=numbers[i]
+print(small,large)
